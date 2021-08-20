@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Registration</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <h1 style="color:red">Don't let playing crappy golf stop you from playing good courses!</h1>
+    <video width="950" height="520" controls>
+        <source src="https://mail.google.com/mail/u/0/?pli=1
+        https://mail-attachment.googleusercontent.com/attachment/u/0/?ui=2&ik=02d6e9013e&attid=0.1&permmsgid=msg-f:1704769747949544809&th=17a88f0db25d6569&view=att&disp=safe&saddbat=ANGjdJ8GOSU1Rn41gN05N7NtgDUPtiY2Yw1-HqgdmzGh4NGn3xlvJjGDGH5xELPRVxaYD2ZC44bmr7ggtnAw4zd8TLB47WgRwjVSd6LPUgvX8cvfRRguqb8ZPOPxJyMjwl7gTky3DVCKx4UC6OntTIsN2n3mG70fdY9nApDHa-ZCW9pB3pbhRN3h79c1846zLPlyEqEUkA-q8JOB_wbZiOYByCSK6rk6gwtn7KZXFhNBMLTu-zjU6Gs9yrEoEcvd1jpZt6uvrtCUPD3RdRVGDVT809s_bKD0Jl2UxpNIqtArYxaMQ5bfHuZ81MkKmk-q3B44iF4gug7bpAQhQ_JFvBRO9EYwX1hap9DdzP9NyauDitALNzTw2LZBg0ax2XVwd4EcUiZqM4hiDvkvhn-qgJ1__PtDDj_y8unZt6CiVlw309sQmMNSaZO1loPrUknej0ZDdjsnnkyROJVqX7Sjal8AKUSKY6-YgamGkoQy-wm1hx6FQJBtzx6whASRczI0DIZoWfKlxrlWeEbJO2JwakMJvX0xzk6zaJWGVhl60IlTdt4ko7FDFuyrPB7ajHogyvLIR8TmwmspJBzF6sM55WgYHaQCPqWhW6dUiTyTecxd8KtKj8_BIGJ8PJEuODx707ZDH2H_BsmJfqPnVimnUJGAdovbVWHLSDpGjIu2kuY4lnKyd9cvc-OAcVt4xVE" type="video/mp4">
+
+        Your browser does not support the video tag.
+    </video>
+    <br>
+    <br>
+    <!-- <img src="https://mail.google.com/mail/u/0/
+    https://mail-attachment.googleusercontent.com/attachment/u/0/?ui=2&ik=02d6e9013e&attid=0.1&permmsgid=msg-f:1701660099346533021&th=179d82d836018a9d&view=att&disp=safe&saddbat=ANGjdJ8nGPUAegv4XgIWQXT_Imu8kecPqX1WK-XSy27FPNSor172c0CB5uUW05ZJLxM-CQeFhzw2fIneJPGI2DH-w0rnOCMRhWTbfFLT8ffc7MOijMywDvsHbvyORsNb6syu5KE0FNWW69CgyjJKBGnsou6HcSQfNiN6Axj1CbT2IFvzheOr1GcybQQvylNDDsMF_Xb5XtIUuyx1eri1UBWQ24oRH81XfOAuAx174xnoHhwm5pxUPlbL1fXBZYhquzD5UQUvsX7LPARqLGkYfBC3okIJHWewjiWWGyXMGHqi0CrvrVVNiobzdq1PpYZGrRCE8I7W69-B0yWFldC04EZqX6W8gaesdCkCeMVFWKIf1Vn5F0q1mtFPq1EJxe86aVrzExcix1Ct09leLCJyi7In8RuDtTsvuYlwQ6d-LtgWALdnQY88szc_deMQ28w6uoeYLI1ETWXsKuArAvoYo_8e2wsOcg3p0lVz1s6bHvMm2fLZAwPHo6lEACrUlF-3cXqG6MWYaVdO4k1YDJBRlbcBDe2rMi_Iv4XLjTUjrKlZxiGPxKb47QkW9wuHLvOcq65Sh_yB9w5djQc5lHRLNDsE-eacSs4Rrm41buOi0oRnCcJOTtA6cd1lvUr4IREz68Br_cYRAyL0rIJXPrlnCVje-l33iTPEQ4uX7s2NYBk7K9LclaDwSatSi3NKhMs" alt="golf" width="1100" height="700">
+    <br> -->
+    
+    <h6 style="color:blue">I'm Steve Dempsey, the guy in the video, and I love to golf in Northern California. Confession -- I totally suck. I'm somewhere north of a 20-handicap. So what? I still love the game. If you're like me, you can still golf at some great courses without spending hundreds on lessons or equipment. Remember, keep the bar low, expect a bad round, play very conservative, and you'll feel better.</h6>
+    <h6 style="color:blue">Let me suggest some courses you can play and have fun. You can tell me what you think -- either register or login below to see my favorite courses. Leave me your comments, tell me where you've played, and give me your thoughts.</h6>
+    <br>
+    <br>
+    <br>
+    <h2>Login/Registration</h2>
+    {% if messages %}
+    <ul class="messages">
+        {% for message in messages %}
+        <li {% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+    <div id="log-reg">
+        <section>
+            <br><h3>Register</h3>
+            <form action="/register" method="post">
+                {% csrf_token %}
+                <div class="form-group">
+                    <label for="first_name">First Name</label>
+                    <input type="text" name="first_name" id="first_name" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="last_name">Last Name</label>
+                    <input type="text" name="last_name" id="last_name" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="confirm">Confirm Password</label>
+                    <input type="password" name="confirm" id="confirm" class="form-control">
+                </div>
+                <button class="btn btn-primary">Register</button>
+            </form>
+        </section>
+        <section>
+            <br>
+            <h3>Login</h3>
+            <form action="/login" method="post">
+                {% csrf_token %}
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" class="form-control">
+                </div>
+                
+                <button class="btn btn-primary">Login</button>
+            </form>
+        </section>
+    </div>
+    
+    
+</body>
+</html>

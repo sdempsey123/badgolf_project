@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Bad Words Blocker Test</title>
+    <script type="text/javascript" language="javascript">
+
+        var buttonPress = function ()
+        {
+            var com = document.getElementById('comments');
+            var filterWords = ["shit", "fuck", "brat"];
+            // "i" is to ignore case and "g" for global
+            var rgx = new RegExp("("+filterWords.join("|")+")", "gi");
+            com.value = com.value.replace(rgx, "****");
+
+            // change this to 'return true;' when you will be sure that all your bad words are catched and the form is ready to be submitted
+            return false;
+        }
+    </script>
+</head>
+<body>
+    <form name="badwords" method="post" action="" onsubmit="return buttonPress();">
+        {% csrf_token %}
+        <textarea name="comments" id="comments" rows="5" cols="50"></textarea>
+    <br />
+    <input id="formSub" type="submit" value="Submit!" />
+    </form>
+</body>
+</html>

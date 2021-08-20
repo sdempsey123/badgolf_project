@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <h1 style="color:red">{{user.first_name}} {{user.last_name}}</h1>
+    <p>Email: {{user.email}}</p>
+    <h2 style="color:red">{{user.first_name}} {{user.last_name}}'s Messages</h2>
+    {% for wall_message in user.user_messages.all %}
+        <h3>"{{wall_message.message}}"</h3>
+        {% endfor %}
+        <h2 style="color:red">{{user.first_name}} {{user.last_name}}'s Comments</h2>
+    {% for wall_comment in user.user_comments.all %}
+        <h3>"{{wall_comment.comment}}"</h3>
+    {% endfor %}
+    <a href="/wall">Go Back</a>
+
+    
+</body>
+</html>
