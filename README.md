@@ -27,7 +27,7 @@ This project encourages golfers with high handicaps that they can play some of t
 
 * Users can utilize message/comment section with HTML and Python
 * Users can delete their own posts, but cannot delete posts they have not created
-* Users are unable to post any profanity with a profanity blocker installed within Python code.
+* Users are unable to post any profanity with a profanity blocker installed within Python code
 * Users are able to either logout or return to the home page
 
 <img width="1284" alt="Screen Shot 2021-08-25 at 7 29 24 PM" src="https://user-images.githubusercontent.com/75657565/130890610-7b2b5c22-cc3b-428e-a0b5-92d1ed829c60.png">
