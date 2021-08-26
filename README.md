@@ -18,7 +18,7 @@ This project encourages golfers with high handicaps that they can play some of t
 * Good courses that bad golfers can play are illustrated with a mix of HTML chatter and images
 * Each course has a link to give users detailed information
 * Users can hit the link button to take them to the next page
-![image](https://user-images.githubusercontent.com/75657565/130889440-50bb79fd-f05d-4534-b345-dfc814f55d2f.png)
+
 
 ### Third page
 
