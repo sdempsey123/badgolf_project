@@ -6,6 +6,7 @@ How can bad golfers have a great time on good courses
 This project encourages golfers with high handicaps that they can play some of the finest courses in Northern California. The key aspect is struggling golfers need to understand that they suck and they need to lower their expectations. This project also shows some of the good courses that can be played and invites users to comment on their experiences.
 
 ## Getting Started
+![pebble](https://user-images.githubusercontent.com/75657565/130887416-b777ac99-4f31-46ce-811d-f5664e055a59.jpg)
 
 ### Home page
 
