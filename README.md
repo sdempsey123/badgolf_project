@@ -14,7 +14,7 @@ This project encourages golfers with high handicaps that they can play some of t
 * Registration and Login created in HTML and Python
 
 
-### Second page
+### Find the right courses
 
 * Good courses that bad golfers can play are illustrated with a mix of HTML chatter and images
 * Each course has a link to give users detailed information
@@ -23,7 +23,7 @@ This project encourages golfers with high handicaps that they can play some of t
 ![paradise_valley](https://user-images.githubusercontent.com/75657565/130890032-1fdb6475-91a2-4e8b-ba71-60e437107f4b.jpg)
 
 
-### Third page
+### Users make comments
 
 * Users can utilize message/comment section with HTML and Python
 * Users can delete their own posts, but cannot delete posts they have not created
@@ -32,7 +32,7 @@ This project encourages golfers with high handicaps that they can play some of t
 
 <img width="1284" alt="Screen Shot 2021-08-25 at 7 29 24 PM" src="https://user-images.githubusercontent.com/75657565/130890610-7b2b5c22-cc3b-428e-a0b5-92d1ed829c60.png">
 
-## Links to golf courses
+## Links to featured golf courses
 
 * [Pebble Beach Golf Links](https://www.pebblebeach.com/golf/pebble-beach-golf-links/)
 * [The Olympic Club](https://www.olyclub.com/)
