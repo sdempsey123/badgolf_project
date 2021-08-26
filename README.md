@@ -12,6 +12,8 @@ This project encourages golfers with high handicaps that they can play some of t
 
 * Intro to the project with a content created in HTML and homemade video
 * Registration and Login created in HTML and Python
+![paradise_valley](https://user-images.githubusercontent.com/75657565/130890032-1fdb6475-91a2-4e8b-ba71-60e437107f4b.jpg)
+
 
 ### Second page
 
