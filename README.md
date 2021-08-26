@@ -33,5 +33,15 @@ This project encourages golfers with high handicaps that they can play some of t
 <img width="1284" alt="Screen Shot 2021-08-25 at 7 29 24 PM" src="https://user-images.githubusercontent.com/75657565/130890610-7b2b5c22-cc3b-428e-a0b5-92d1ed829c60.png">
 
 ## Links to golf courses
-[Pebble Beach Golf Links](https://www.pebblebeach.com/golf/pebble-beach-golf-links/)
+
+* [Pebble Beach Golf Links](https://www.pebblebeach.com/golf/pebble-beach-golf-links/)
+* [The Olympic Club](https://www.olyclub.com/)
+* [TPC Harding Park](https://tpc.com/hardingpark/)
+* [Silverado Resort](https://www.silveradoresort.com/napa-valley-golf)
+* [Spyglass Hill Golf Course](https://www.pebblebeach.com/golf/spyglass-hill-golf-course/)
+* [Tilden Park Golf Course](https://www.tildenparkgc.com/)
+* [Chardonnay Golf Club](http://www.chardonnaygolfclub.com/)
+* [Paradise Valley Golf Course](https://www.fairfieldgolf.com/)
+* [Franklin Canyon Golf Course](https://www.franklincanyongolf.com/)
+* [San Ramon Golf Club](https://golfsanramon.com/)
 
