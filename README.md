@@ -1,5 +1,5 @@
 # prototype.proj
-How can bad golfers have a great time on good courses.
+How can bad golfers have a great time on good courses
 
 ## Description
 
