@@ -7,7 +7,7 @@ This project encourages golfers with high handicaps that they can play some of t
 
 ## Getting Started
 ![pebble](https://user-images.githubusercontent.com/75657565/130887416-b777ac99-4f31-46ce-811d-f5664e055a59.jpg)
-
+https://user-images.githubusercontent.com/75657565/130887916-816feafa-67d2-4cad-aa29-6d3391666a06.mp4
 ### Home page
 
 * Intro to the project with a content created in HTML and homemade video
