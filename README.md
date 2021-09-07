@@ -1,7 +1,8 @@
 # prototype.proj
 How can bad golfers have a great time on good courses
 
-https://user-images.githubusercontent.com/75657565/132264831-ad53a79f-e1b9-45f2-a8bc-7950c0004e59.mp4
+https://user-images.githubusercontent.com/75657565/132265812-040c9a98-8e63-42fc-a350-b23a7ce72ed6.mp4
+
 
 
 ## Description
